@@ -1,0 +1,54 @@
+.banner {
+  background-image: url('/public/banner.png');
+  position: relative;
+  min-height: 223px;
+  max-width: 1240px;
+  margin: auto;
+  display: grid;
+  place-items: center;
+  opacity: 0.6;
+  border-radius: 25px;
+
+}
+
+.banner::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: inherit;
+  filter: brightness(60%); 
+  z-index: -1;
+  border-radius: inherit;
+}
+
+.banner h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 48px;
+  font-weight: 700 bold;
+  line-height: 68.45px;
+  text-align: center;
+  color: white;
+  z-index: 1; 
+  margin: 0; 
+}
+
+  
+  @media only screen and (max-width: 480px) {
+      .banner {
+          justify-content: center;
+          min-height: 111px;
+          min-width: 355px;
+      }
+      .banner h1 {
+        font-size: 24px;
+        width: 65%;
+        text-align: left;
+        margin-right: 6rem;
+      }
+  }
+  
+  
+  

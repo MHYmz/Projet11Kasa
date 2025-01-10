@@ -1,0 +1,28 @@
+.flat{
+    background-image: linear-gradient(to top, #863535,#ff6060);
+    border-radius: 10px;
+    min-width :340px;
+    min-height: 340px;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 10px;
+    flex-basis: 30%;
+    margin-top: 20px;
+} 
+
+.title {
+   margin-left: 1rem;
+   color: white;
+}
+
+
+    
+    @media only screen and (max-width: 480px) {
+        .grid {
+            min-width :335px;
+            min-height: 255px;
+        }
+    }
+    
+    
+    
