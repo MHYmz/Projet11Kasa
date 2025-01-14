@@ -1,3 +1,4 @@
+import React from "react";
 import "./HomeArray.css";
 import Flat from "./Flat.jsx";
 

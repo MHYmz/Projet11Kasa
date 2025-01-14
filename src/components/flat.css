@@ -1,4 +1,4 @@
-.flat{
+.flat {
     background-image: linear-gradient(to top, #863535,#ff6060);
     border-radius: 10px;
     min-width :340px;
@@ -10,14 +10,19 @@
     margin-top: 20px;
 } 
 
+.flat a {
+    text-decoration: none;
+    color: white;
+}
+
+  
 .title {
    margin-left: 1rem;
    color: white;
-}
+}  
 
 
-    
-    @media only screen and (max-width: 480px) {
+@media only screen and (max-width: 480px) {
         .grid {
             min-width :335px;
             min-height: 255px;
