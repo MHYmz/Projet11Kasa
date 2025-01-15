@@ -14,12 +14,12 @@
         text-decoration: none;
       }
       
-      .navbar a:hover {
+      .navbar a:hover,
+      .navbar a.active {
      text-decoration: underline;
-     text-underline-offset: 4px;
    }
 
-   .navbar_logo {
+   .navbar > :first-of-type { 
     margin-right: auto; 
   }
 

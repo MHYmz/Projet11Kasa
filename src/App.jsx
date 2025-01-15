@@ -10,12 +10,10 @@ import "./App.css";
 function App() {
   return (
     <div>
-    <Navbar/>
     <Main>
      <Banner/>
     <HomeArray/>
     </Main>
-    <Footer/>
     </div>
   )
 }
