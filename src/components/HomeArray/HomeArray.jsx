@@ -1,6 +1,6 @@
 import React from "react";
 import "./HomeArray.css";
-import Flat from "./Flat.jsx";
+import Flat from "../Flat/Flat.jsx";
 
 function ApartmentGrid() {
   return (

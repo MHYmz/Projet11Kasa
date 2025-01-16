@@ -4,15 +4,18 @@ import { createRoot } from 'react-dom/client'
 import { createBrowserRouter,RouterProvider, Outlet} from 'react-router-dom';
 import './index.css'
 
-import App from './App.jsx'
-import Navbar from './components/Navbar.jsx';
-import Footer from './components/Footer.jsx';
+import HousingPage from './HousingPage.jsx';
+import Navbar from './components/Navbar/Navbar.jsx';
+import Footer from './components/Footer/Footer.jsx';
+import Main from './components/Main/Main.jsx';
 
 const PageStructure = () => {
   return (
   <>
     <Navbar/>
+    <Main>
     <Outlet/>
+    </Main>
     <Footer/>
     </>
   )
@@ -25,7 +28,7 @@ const router = createBrowserRouter([
     children: [
       {
       path: "/",
-      element: <App />
+      element: <HousingPage />
       },
       {
         path: "/flat",
