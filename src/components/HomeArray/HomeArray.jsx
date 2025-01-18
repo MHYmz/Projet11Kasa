@@ -1,5 +1,5 @@
 import React from "react";
-import "./HomeArray.css";
+import "./HomeArray.scss";
 import Flat from "../Flat/Flat.jsx";
 
 function ApartmentGrid() {

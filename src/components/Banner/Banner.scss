@@ -1,3 +1,5 @@
+@use "@scss/settings.scss" as *;
+
 .banner {
   background-image: url('/public/banner.png');
   position: relative;
@@ -7,11 +9,9 @@
   display: grid;
   place-items: center;
   opacity: 0.6;
-  border-radius: 25px;
+  border-radius: $border-radius-primary;
 
-}
-
-.banner::before {
+&::before {
   content: '';
   position: absolute;
   top: 0;
@@ -21,34 +21,33 @@
   background-image: inherit;
   filter: brightness(60%); 
   z-index: -1;
-  border-radius: inherit;
+  border-radius:$border-radius-primary;
 }
 
-.banner h1 {
-  font-family: 'Montserrat', sans-serif;
+h1 {
+  font-family: $font-family-primary;
   font-size: 48px;
   font-weight: 700 bold;
   line-height: 68.45px;
   text-align: center;
-  color: white;
+  color: $color-white;
   z-index: 1; 
   margin: 0; 
-}
-
+  }
   
   @media only screen and (max-width: 480px) {
-      .banner {
           justify-content: center;
           min-height: 111px;
           min-width: 355px;
-      }
-      .banner h1 {
+      
+      
+      h1 {
         font-size: 24px;
         width: 65%;
         text-align: left;
         margin-right: 6rem;
       }
   }
-  
+}
   
   

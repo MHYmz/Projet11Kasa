@@ -2,12 +2,13 @@ import React from 'react';
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import { createBrowserRouter,RouterProvider, Outlet} from 'react-router-dom';
-import './index.css'
+import './index.scss'
 
-import HousingPage from './HousingPage.jsx';
+import HousingPage from './components/Pages/HousingPage.jsx';
 import Navbar from './components/Navbar/Navbar.jsx';
 import Footer from './components/Footer/Footer.jsx';
 import Main from './components/Main/Main.jsx';
+import FlatPage from './components/Pages/FlatPage.jsx';
 
 const PageStructure = () => {
   return (
@@ -32,7 +33,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/flat",
-        element:<h1>FLAT</h1>
+        element: <FlatPage />
       },  
       {
         path: "/about",

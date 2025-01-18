@@ -1,0 +1,39 @@
+@use "@scss/settings.scss" as *;
+
+.navbar {
+     display: flex;
+     align-items: center;
+     color: $color-tertiary;
+     padding: clamp(1rem, 4vw, 4rem);
+     font-family: $font-family-primary;
+     font-weight: 700;
+     font-size: 1.5rem;
+     gap: 2rem;
+
+     & > :first-of-type { 
+      margin-right: auto; 
+    }
+
+    & a {
+        color: $color-tertiary;
+        text-decoration: none;
+    &:hover,
+    &.active {
+      text-decoration: underline;
+    }
+  }
+}
+       
+
+
+  @media only screen and ($mobile-breakpoint) {
+    .navbar {
+     font-size: 12px;
+     text-transform: uppercase;
+     gap: 1rem;
+
+    & > .navbar_logo img {
+      width: 145px;
+    }
+  }
+}
