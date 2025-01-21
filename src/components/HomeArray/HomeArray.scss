@@ -2,7 +2,7 @@
 
 .grid {
     background-color:$grid-background-color;
-    min-height: 829px; 
+    min-height: 829px;
     border-radius: $border-radius-primary;
     display: flex;
     gap: 20px;
@@ -10,12 +10,14 @@
     justify-content: space-around;
     flex-wrap: wrap;
 
-@media only screen and ($mobile-breakpoint) {
+@media only screen and (max-width:480px) {
+.grid{
     justify-content: center;
     min-height: 255px;
-    min-width: 355px;
+    min-width: auto;
     background-color: $color-white;
     }
+}
 }
 
 

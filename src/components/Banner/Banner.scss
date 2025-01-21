@@ -1,7 +1,7 @@
 @use "@scss/settings.scss" as *;
 
 .banner {
-  background-image: url('/public/banner.png');
+  background-image: url('/banner.png');
   position: relative;
   min-height: 223px;
   max-width: 1240px;
@@ -27,7 +27,7 @@
 h1 {
   font-family: $font-family-primary;
   font-size: 48px;
-  font-weight: 700 bold;
+  font-weight: 700;
   line-height: 68.45px;
   text-align: center;
   color: $color-white;
@@ -35,19 +35,17 @@ h1 {
   margin: 0; 
   }
   
-  @media only screen and (max-width: 480px) {
-          justify-content: center;
-          min-height: 111px;
-          min-width: 355px;
-      
-      
+  @media only screen and (max-width:480px) {
+    .banner  {
+    justify-content: center;
+    min-height: 111px;
+    min-width: 355px;
+    }
+
       h1 {
         font-size: 24px;
-        width: 65%;
         text-align: left;
-        margin-right: 6rem;
+        transform: translateY(20px)  translateX(10px);
       }
   }
 }
-  
-  

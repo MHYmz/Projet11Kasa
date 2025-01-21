@@ -23,17 +23,16 @@
     }
   }
 }
-       
 
-
-  @media only screen and ($mobile-breakpoint) {
+@media only screen and (max-width:480px) {
     .navbar {
      font-size: 12px;
      text-transform: uppercase;
      gap: 1rem;
 
-    & > .navbar_logo img {
-      width: 145px;
+    .navbar_logo img {
+      max-width: 145px;
+      height: auto ;
     }
   }
 }

@@ -4,11 +4,13 @@ import { createRoot } from 'react-dom/client'
 import { createBrowserRouter,RouterProvider, Outlet} from 'react-router-dom';
 import './index.scss'
 
-import HousingPage from './components/Pages/HousingPage.jsx';
+import HousingPage from './Pages/HousingPage/HousingPage.jsx';
 import Navbar from './components/Navbar/Navbar.jsx';
 import Footer from './components/Footer/Footer.jsx';
 import Main from './components/Main/Main.jsx';
-import FlatPage from './components/Pages/FlatPage.jsx';
+import FlatPage from './Pages/FlatPage/FlatPage.jsx';
+import Apropos from './Pages/Apropos/Apropos.jsx';
+import Error404Page from './Pages/Error404Page/Error404Page.jsx';
 
 const PageStructure = () => {
   return (
@@ -22,10 +24,11 @@ const PageStructure = () => {
   )
 };
 
-const router = createBrowserRouter([
+export const router = createBrowserRouter ([
 
   {
     element: <PageStructure/>,
+    errorElement:<Error404Page />,
     children: [
       {
       path: "/",
@@ -37,13 +40,10 @@ const router = createBrowserRouter([
       },  
       {
         path: "/about",
-        element:
-        <h1>À PROPOS</h1>
+        element: <Apropos />
       },    
     ],
-    errorElement: <h1>404</h1>,
   },
-  
 ]);
 
 createRoot(document.getElementById('root')).render(

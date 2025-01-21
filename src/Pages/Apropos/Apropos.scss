@@ -1,0 +1,27 @@
+@use "@scss/settings.scss" as *;
+
+.Apropos {
+    background-image: url('/banner2.png');
+    position: relative;
+    min-height: 223px;
+    max-width: 1240px;
+    margin: auto;
+    display: grid;
+    place-items: center;
+    border-radius: $border-radius-primary;
+    filter: contrast(170%) brightness(125%) saturate(100%);
+    image-rendering: crisp-edges; 
+    object-fit: cover;
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size : cover;
+    }
+    
+@media only screen and (max-width:480px) {
+    .Apropos {
+          justify-content: center;
+          min-height: 111px;
+          min-width: 355px;
+    }
+}
+
