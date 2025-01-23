@@ -1,0 +1,46 @@
+@use "@scss/settings.scss" as *;
+
+
+.apt-info {
+    flex:1;
+    margin-block: 0;
+
+    .apt-legend{
+        background-color: $color-primary;
+        color: $color-white;
+        border-radius: 10px;
+        padding-block: 0.5rem 1rem;
+        font-family: $font-family-primary;
+        font-weight: 700;
+        font-size: 18px;
+        display: flex;
+        justify-content: space-between;
+        line-height: 25.75px;
+        span{
+            margin-left: 1rem;
+        }
+    i{ 
+         width: 28px;
+         height: 13.71px;
+         color:rgba(255, 255, 255, 1);
+         cursor: pointer;
+         ;
+        }
+    }
+    .apt-text{
+        background-color: rgba(246, 246, 246, 0.45);
+        border-radius: 10px;
+        color: $color-primary;
+        padding: 1rem;
+        display: inline-block;
+        position: relative;
+        transform: translateY(-2.2rem);
+        z-index: -1;
+    }
+
+  }
+
+  .apt-container{
+    display: flex;
+    gap: 1rem;
+  }

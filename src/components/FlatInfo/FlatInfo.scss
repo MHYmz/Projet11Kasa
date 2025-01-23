@@ -1,0 +1,78 @@
+@use "@scss/settings.scss" as *;
+
+.flat-info {
+    display: flex;
+    
+.flat-details{
+        flex-grow: 1;
+    }
+
+    .flat-h1{
+        color:$color-primary;
+        font-weight: 500;
+        font-size: 36px;
+        font-family:$font-family-primary;
+    }
+    
+    .flat-h2 {
+        color:$color-tertiary;
+        font-weight: 500;
+        font-size: 18px;
+        font-family: $font-family-primary;
+    }
+    .flat-labels {
+        display: flex;
+        gap:1rem;
+        span {
+            background-color: $color-primary;
+            color: $color-white;
+            font-weight: 700;
+            font-size: 14px;
+            font-family: $font-family-primary;
+            border-radius: 10px;
+            width: 115px;
+            height: 25px;
+            text-align: center;
+            line-height: 25px;
+        }
+    }
+
+.host-details {
+        display: flex;
+        gap: 1rem;
+        }
+        
+h3{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    font-weight: 500;
+    font-size: 18px;
+    color: $color-primary;
+}
+
+
+.host-sticker {
+    width:64px;
+    height: 64px;
+    background-color: rgba( 196,196,196,1);
+    border-radius: 50%;
+    margin-top: 0.6rem;
+}
+
+
+.rating {
+    display: flex;
+    gap: 0.5rem;
+
+    span {
+      cursor: pointer;
+      transition: transform 0.2s ease;
+  
+      &:hover {
+        transform: scale(1.2);
+      }
+    }
+  }
+
+}

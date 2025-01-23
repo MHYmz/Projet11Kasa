@@ -1,0 +1,7 @@
+@use "@scss/settings.scss" as *;
+
+.flat-img img {
+    width: 1240px;
+    height: 415px;
+    border-radius: $border-radius-primary;
+}
