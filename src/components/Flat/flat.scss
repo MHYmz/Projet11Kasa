@@ -1,24 +1,42 @@
 @use "@scss/settings.scss" as *;
 
-.flat {
-    background-image: linear-gradient(to top, $color-primary,$color-secondary);
+.flat-pictures {
     border-radius: 10px;
     min-width :340px;
     min-height: 340px;
     display: flex;
-    align-items: flex-end;
+    align-items: end;
     padding-bottom: 10px;
-    flex-basis: 30%;
     margin-top: 20px;
-& a {
+    position: relative;
+     img {
+        width: 340px;
+        height: 340px;
+        object-fit: cover;
+        border-radius: $border-radius-primary;
+        filter: brightness(0.8);
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+    }
+     .title {
+        position: absolute;
+        bottom: 1rem;
+        left: 1rem;
+        color: $color-white;
+        font-size: 1.125rem;
+        font-weight: 500;
+        line-height: 142.6%;
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
+        position: absolute;
+        z-index: 1;
+        }
+
+    & a {
     text-decoration: none;
     color: $color-white; 
-}
-
-.title {
-   margin-left: 1rem;
-   color: $color-white;
     }
+
 
 
 @media only screen and (max-width:480px) {

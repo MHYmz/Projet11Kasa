@@ -35,7 +35,7 @@ export const router = createBrowserRouter ([
       element: <HousingPage />
       },
       {
-        path: "/flat",
+        path: "/flatlink",
         element: <FlatPage />
       },  
       {
