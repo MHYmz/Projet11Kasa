@@ -16,7 +16,13 @@
     background-position: center; 
     background-size : cover;
     }
-    
+.Apropos-description{
+    padding-inline-start: 3rem;
+    padding-inline-end: 3rem;
+
+}
+
+
 @media only screen and (max-width:480px) {
     .Apropos {
           justify-content: center;
@@ -24,4 +30,6 @@
           min-width: 355px;
     }
 }
+
+
 

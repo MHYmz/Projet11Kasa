@@ -13,6 +13,7 @@ function FlatPage() {
       <FlatInfo />
       <div className='apt-container'>
           <InfoHabitat />
+          <InfoHabitat />
         </div>
       </div>
   );

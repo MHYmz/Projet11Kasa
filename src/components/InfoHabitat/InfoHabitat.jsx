@@ -18,17 +18,6 @@ export function InfoHabitat() {
                     une atmosphère accueillante pour se détendre.
                 </p>
             </div>
-            <div className="apt-info">
-                <p className='apt-legend'>
-                    <span>Équipements</span>
-                    <i className="fa-solid fa-chevron-up"></i>
-                </p>
-                <div className='apt-text'>
-                    <p>Climatisation</p>
-                    <p>WiFi</p>
-                    <p>Cuisine équipée</p>
-                </div>
-            </div>
         </div>
     );
 }
