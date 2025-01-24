@@ -3,3 +3,9 @@
 .apt-container{
     display: flex;
     gap: 1rem;}
+
+    @media only screen and (max-width:480px) {
+        .apt-container{
+        flex-direction: column;
+        }
+    }

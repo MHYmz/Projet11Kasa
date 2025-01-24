@@ -2,6 +2,7 @@
 
 .flat-info {
     display: flex;
+    gap: 1rem;
     
 .flat-details{
         flex-grow: 1;
@@ -10,7 +11,7 @@
     .flat-h1{
         color:$color-primary;
         font-weight: 500;
-        font-size: 36px;
+        font-size:  36px;
         font-family:$font-family-primary;
     }
     
@@ -75,4 +76,33 @@ h3{
     }
   }
 
+}
+
+@media only screen and (max-width:480px) {
+    .flat-info{
+        flex-direction: column;
+    }
+
+    .host-info{
+        display: flex;
+        justify-content: space-between;
+    }
+
+  .host-details h3{
+    font-size: 12px;
+    font-weight: 500;
+    font-family: $font-family-primary;
+  }
+  
+  .host-details {
+    order:1
+  }
+
+  .flat-info .host-sticker{
+    width: 32px;
+    height: 32px;
+  }
+  .rating{
+    transform: translateY(15px);
+  }
 }

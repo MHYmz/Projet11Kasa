@@ -1,14 +1,30 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect} from 'react';
 import "./FlatInfo.scss";
 
 export function FlatInfo() {
   const [activeStars, setActiveStars] = useState(3);
+  const [starSize, setStarSize] = useState(24);
+
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth <= 480) {
+        setStarSize(18);
+      } else {
+        setStarSize(24);
+      }
+    };
+
+    handleResize();
+    window.addEventListener('resize', handleResize);
+
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
 
   const Star = ({ filled }) => (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
+      width={starSize}
+      height={starSize}
       viewBox="0 0 24 24"
       fill={filled ? "#ff6060" : "rgba(227, 227, 227, 1)"}
       stroke="none"

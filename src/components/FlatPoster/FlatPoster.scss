@@ -5,3 +5,13 @@
     height: 415px;
     border-radius: $border-radius-primary;
 }
+
+@media only screen and (max-width:480px) {
+   .flat-img img {
+    width: 335px;
+    height: 111px;
+    gap: 0px;
+    opacity: 0px;
+   }
+}
+
