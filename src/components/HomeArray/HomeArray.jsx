@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./HomeArray.scss";
 import Flat from "../Flat/Flat.jsx";
-import { data } from "react-router-dom";
 
 
 
@@ -13,7 +12,7 @@ useEffect(() => {
 }, []);
 
 function fetchData() {
-  fetch("/DataKasa.json")
+  fetch("/datakasa.json")
   .then((response) => response.json()) // Convertit la réponse en JSON
   .then((data) => setFlats(data)) // Met à jour l'état avec les données récupérées
   .catch(console.error); // Gère les erreurs
@@ -25,7 +24,8 @@ function fetchData() {
             <Flat 
             key={index} // Nécessaire pour identifier chaque élément
             title={flat.title} 
-            imgLink={flat.cover}/> 
+            imgLink={flat.cover}
+            id={flat.id} />
         ))}
       </div>   
   )

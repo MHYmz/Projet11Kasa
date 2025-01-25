@@ -1,8 +1,16 @@
 import React, { useState, useEffect} from 'react';
 import "./FlatInfo.scss";
 
-export function FlatInfo() {
-  const [activeStars, setActiveStars] = useState(3);
+export function FlatInfo(props) {
+  const { home, tags } = props;
+
+  if (!home) {
+    console.error("La prop 'home' est manquante dans FlatInfo.");
+    return <div>Informations non disponibles</div>;
+  } 
+
+  const [activeStars, setActiveStars] = useState(home.rating || 0);
+  const initialRating = home.rating || 0;
   const [starSize, setStarSize] = useState(24);
 
   useEffect(() => {
@@ -33,23 +41,32 @@ export function FlatInfo() {
     </svg>
   );
 
+  const host = home.host || {};
+  const name = host.name || '';
+  const [firstName = '', lastName = ''] = name.split(' ');
+
   return (
     <div className="flat-info">
       <div className="flat-details">
-        <h1 className="flat-h1">Cozy loft on the Canal Saint-Martin</h1>
-        <h2 className="flat-h2">Paris, Île-de-France</h2>
+        <h1 className="flat-h1">{props.home.title}</h1>
+        <h2 className="flat-h2">{props.home.location}</h2>
         <div className="flat-labels">
-          <span>Cozy</span>
-          <span>Canal</span>
-          <span>Paris 10</span>
+        {props.tags && props.tags.length > 0 ? (
+            props.tags.map((tag, index) => <span key={index}>{tag}</span>)
+          ) : (
+            <span>Aucun tag disponible</span>
+          )}
         </div>
       </div>
       <div className="host-info">
         <div className="host-details">
           <h3>
-            <span>Alexandre</span> <span>Dumas</span>
+            <span>{firstName ||'Hôte' }</span> 
+            <span>{lastName}</span>
           </h3>
-          <div className="host-sticker"></div>
+          <div className="host-sticker">
+          <img src={home.host.picture} alt="Image de l'hôte"/>
+          </div>
         </div>
         <div className="rating">
           {[1, 2, 3, 4, 5].map((star) => (

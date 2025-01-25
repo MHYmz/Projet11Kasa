@@ -4,7 +4,10 @@ import { NavLink } from "react-router-dom";
 
 function Flat(props) {
   return (
-      <NavLink to="/flatlink">
+      <NavLink 
+      to="/flatlink"  
+      state={{ flatId: props.id}}
+        > 
       <div className="flat-pictures">
       <img src={props.imgLink} alt="Image des Appartements"/>
         <div className="title">{props.title}</div>
