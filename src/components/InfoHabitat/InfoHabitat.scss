@@ -1,7 +1,12 @@
 @use "@scss/settings.scss" as *;
 
 
-.apt-info {
+.apt-container{
+    display: flex;
+    gap: 1rem;
+    flex-basis: 50%;
+
+    .apt-info {
     flex:1;
     margin-block: 0;
 
@@ -16,6 +21,7 @@
         display: flex;
         justify-content: space-between;
         line-height: 25.75px;
+        cursor: pointer;
         
         span{
             margin-left: 1rem;
@@ -25,7 +31,6 @@
          width: 28px;
          height: 13.71px;
          color:rgba(255, 255, 255, 1);
-         cursor: pointer;
         }
     }
     .apt-text{
@@ -34,13 +39,9 @@
         color: $color-primary;
         padding: 1rem;
         position: relative;
-        transform: translateY(-2.2rem);
+        transform: translateY(-1.5rem);
         z-index: -1;
+        transition: transform 0.8s ease-out, opacity 0.8s ease-out;
     }
-
-  }
-  .apt-container{
-    display: flex;
-    gap: 1rem;
-    flex-basis: 50%;
-  }
+}
+}
