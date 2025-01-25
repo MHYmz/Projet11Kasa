@@ -45,8 +45,16 @@ if (! home) {
       <FlatPoster imgLink={home.cover}/>
       <FlatInfo home={home} tags={home.tags || []}/>
       <div className='apt-container'>
-          <InfoHabitat />
-          <InfoHabitat />
+          <InfoHabitat title='Description' text={home.description}/>
+          <InfoHabitat title='Équipements' 
+           text={
+          <ul style={{ listStyleType: 'none', paddingLeft: 0 }}>
+          {home.equipments.map((eq, index) => (
+          <li key={index}>{eq}</li>
+          ))}
+        </ul>
+          }
+        />
         </div>
       </div>
   );
