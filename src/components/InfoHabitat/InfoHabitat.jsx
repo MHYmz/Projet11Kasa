@@ -18,7 +18,7 @@ export function InfoHabitat(props) {
                     <span>{props.title}</span>
                     <i className={`fa-solid ${isOpen ? 'fa-chevron-up' : 'fa-chevron-down'}`} ></i>
                 </p>
-               {isOpen &&  <p className='apt-text'>{props.text}</p>}
+               {isOpen &&  <p className='apt-text' style={{color:'black'}}  >{props.text}</p>}
             </div>
         </div>
     );
