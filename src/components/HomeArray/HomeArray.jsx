@@ -27,7 +27,7 @@ function fetchData() {
             imgLink={flat.cover}
             id={flat.id} />
         ))}
-      </div>   
+      </div>
   )
 }
 export default HomeArray
