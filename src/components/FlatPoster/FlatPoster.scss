@@ -1,17 +1,88 @@
 @use "@scss/settings.scss" as *;
 
-.flat-img img {
-    width: 1240px;
-    height: 415px;
-    border-radius: $border-radius-primary;
+.flat_poster{
+    position: relative;
+.chevron{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 5rem;
+    background-color: transparent;
+    cursor: pointer;
+    color: $color-white;
+    border-width: 0;
+    .fa-solid, .fas {
+        font-size :60px;
+    }
 }
+.chevron-next{
+    right : 0;
+}
+.chevron-prev{
+    left: 0;
+}
+
+
+
+.flat_wrapper{
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    height: 415px;
+    width: 100%;
+}
+img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: $border-radius-primary;
+    opacity: 0;
+    transition: transform 0.5s ease, filter 0.5s ease, opacity 1s ease;
+
+    &.active {
+        opacity: 1;
+    }
+}
+.carousel-counter {
+    position: absolute;
+    bottom: 10px;
+    left: 50%; 
+    transform: translateX(-50%); 
+    color: $color-white;
+    padding: 5px 15px; 
+    font-size: 18px; 
+    font-weight: 500;
+}
+}
+
+
 
 @media only screen and (max-width:480px) {
-   .flat-img img {
-    width: 335px;
-    height: 111px;
-    gap: 0px;
-    opacity: 0px;
-   }
-}
+   .flat_poster {
+    .flat_wrapper {
+        height: 255px; 
+    }
 
+    img {
+        width: 100%;
+        height: 100%;
+        border-radius: $border-radius-primary;
+        object-fit: cover;
+    }
+
+    .carousel-counter {
+        font-size: 14px; 
+    }
+
+    .chevron {
+        width: 24px;
+
+    .fa-solid, .fas{
+        font-size: 16px;
+}
+}
+}
+}

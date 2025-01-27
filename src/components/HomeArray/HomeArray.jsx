@@ -24,8 +24,9 @@ function fetchData() {
             <Flat 
             key={index} // Nécessaire pour identifier chaque élément
             title={flat.title} 
-            imgLink={flat.cover}
-            id={flat.id} />
+            imgFlat={flat.cover}
+            id={flat.id} 
+            />
         ))}
       </div>
   )

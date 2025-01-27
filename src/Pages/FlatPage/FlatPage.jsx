@@ -42,7 +42,7 @@ if (! home) {
 
   return (
     <div className='flat-container'>
-      <FlatPoster imgLink={home.cover}/>
+      <FlatPoster imgFlatPoster={home.pictures}/>
       <FlatInfo home={home} tags={home.tags || []}/>
       <div className='apt-container'>
           <InfoHabitat title='Description' text={home.description}/>

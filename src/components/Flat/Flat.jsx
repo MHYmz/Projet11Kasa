@@ -9,7 +9,7 @@ function Flat(props) {
       state={{ flatId: props.id}}
         > 
       <div className="flat-pictures">
-      <img src={props.imgLink} alt="Image des Appartements"/>
+      <img src={props.imgFlat} alt="Image Des Appartements"/>
         <div className="title">{props.title}</div>
         </div>
         </NavLink>
