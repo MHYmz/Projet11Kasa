@@ -7,38 +7,38 @@ text-align: center;
 h1 {
     font-family: $font-family-primary;
     font-size: 288px;
-    font-weight: 700;
+    font-weight: $font-weight-secondary;
     margin-bottom: 0.5rem;
     margin-top: 0.5rem;
 }
 h2 {
     font-size: 36px;
-    font-weight: 500;
+    font-weight: $font-weight-primary;
 }
 a {
     font-family: $font-family-primary;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: $font-weight-primary;
     line-height: 25.67px;
     text-align: left;
     text-decoration-line: underline;
     color: $color-tertiary;
 }
+}
+
 @media only screen and (max-width:480px) {
-    h1 {
+    .not-found-page h1 {
       font-size: 96px;  
       margin-top: 0.25rem;
       margin-bottom: 0.25rem;
     }
-
-    h2 {
+    .not-found-page h2 {
       font-size: 18px;
       margin-top: 50px ;
       margin-bottom: 50px;   
     }
 
-    a {
+   .not-found-page a {
       font-size: 14px;
     }
-}
 }

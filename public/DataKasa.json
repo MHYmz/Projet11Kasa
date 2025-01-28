@@ -18,7 +18,7 @@
 		"rating": "5",
 		"location": "Ile de France - Paris 17e",
 		"equipments": [
-			"Ã‰quipements de base",
+			"Équipements de base",
 			"Micro-Ondes",
 			"Douche italienne",
 			"Frigo",
@@ -50,15 +50,15 @@
 		"location": "Ile de France - Paris 10e",
 		"equipments": [
 			"Parking",
-			"SÃ¨che Cheveux",
-			"Machine Ã  laver",
+			"Sèche Cheveux",
+			"Machine Ã laver",
 			"Wi-fi",
-			"Cuisine Ã©quipÃ©e",
-			"TÃ©lÃ©vision"
+			"Cuisine Équipée",
+			"Télévision"
 		],
 		"tags": [
 			"Canal Saint Martin",
-			"RÃ©publique",
+			"République",
 			"Appartement"
 		]
 	},
@@ -81,13 +81,13 @@
 		"location": "Ile de France - Paris 20e",
 		"equipments": [
 			"Wi-fi",
-			"Cuisine Ã©quipÃ©e",
-			"TÃ©lÃ©vision",
-			"SÃ¨che Cheveux"
+			"Cuisine Équipée",
+			"Télévision",
+			"Sèche Cheveux"
 		],
 		"tags": [
 			"Buttes Chaumont",
-			"LaumiÃ¨re",
+			"Lumière",
 			"Studio"
 		]
 	},
@@ -111,9 +111,9 @@
 		"equipments": [
 			"Micro-Ondes",
 			"Wi-fi",
-			"Chambre SÃ©parÃ©e",
+			"Chambre Séparée",
 			"Climatisation",
-			"TÃ©lÃ©vision"
+			"Télévision"
 		],
 		"tags": [
 			"Parmentier",
@@ -142,10 +142,10 @@
 		"rating": "5",
 		"location": "Ile de France - Paris 10e",
 		"equipments": [
-			"Frigo AmÃ©ricain",
-			"SÃ¨che Cheveux",
+			"Frigo Américain",
+			"Sèche Cheveux",
 			"Wi-fi",
-			"Chambre SÃ©parÃ©e",
+			"Chambre Séparée",
 			"Parking"
 		],
 		"tags": [
@@ -172,7 +172,7 @@
 		"rating": "5",
 		"location": "Ile de France - Paris 18e",
 		"equipments": [
-			"Chambre SÃ©parÃ©e",
+			"Chambre Séparée",
 			"Parking"
 		],
 		"tags": [
@@ -183,7 +183,7 @@
 	},
 	{
 		"id": "b4c67936",
-		"title": "Cheap - Studio 18Ã¨me",
+		"title": "Cheap - Studio 18ème",
 		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-6-1.jpg",
 		"pictures": [
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-6-1.jpg",
@@ -202,14 +202,14 @@
 			"Salle de bains",
 			"Frigo",
 			"Wi-fi",
-			"SÃ¨che Cheveux",
+			"Sèche Cheveux",
 			"Bureau",
 			"Parking"
 		],
 		"tags": [
 			"Transports",
 			"Cheap",
-			"18Ã¨me"
+			"18ème"
 		]
 	},
 	{
@@ -233,8 +233,8 @@
 		"location": "Ile de France - Paris 6e",
 		"equipments": [
 			"Wi-fi",
-			"SÃ¨che Cheveux",
-			"Machine Ã  laver",
+			"Sèche Cheveux",
+			"Machine Ã laver",
 			"Parking",
 			"Lit King Size",
 			"Ascenseur"
@@ -243,7 +243,7 @@
 			"Luxe",
 			"Tour Eiffel",
 			"T3",
-			"6Ã¨me"
+			"6ème"
 		]
 	},
 	{
@@ -266,8 +266,8 @@
 		"location": "Ile de France - Paris 14e",
 		"equipments": [
 			"Climatisation",
-			"Machine Ã  laver",
-			"SÃ¨che Cheveux",
+			"Machine Ã laver",
+			"Sèche Cheveux",
 			"Wi-fi",
 			"Parking"
 		],
@@ -297,8 +297,8 @@
 		"equipments": [
 			"Vue Parc",
 			"Chauffage",
-			"SÃ¨che linge",
-			"SÃ¨che Cheveux",
+			"Sèche linge",
+			"Sèche Cheveux",
 			"Wi-fi",
 			"Ascenseur"
 		],
@@ -329,7 +329,7 @@
 		"equipments": [
 			"Clic-clac",
 			"Four",
-			"SÃ¨che Cheveux",
+			"Sèche Cheveux",
 			"Wi-fi"
 		],
 		"tags": [
@@ -340,7 +340,7 @@
 	},
 	{
 		"id": "5323c29b",
-		"title": "Studio fonctionnel RÃ©publique",
+		"title": "Studio fonctionnel République",
 		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-11-3.jpg",
 		"pictures": [
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-11-3.jpg",
@@ -348,7 +348,7 @@
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-11-4.jpg",
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-11-5.jpg"
 		],
-		"description": "IdÃ©alement situÃ© Ã  2 pas de la place de la RÃ©publique, ce studio particuliÃ¨rement fonctionnel est parfait pour dÃ©couvrir Paris. Proche de tous les points d'intÃ©rÃªts grÃ¢ce aux 5 lignes de mÃ©tro qui sont Ã  5 minutes, vous pourrez rentabiliser votre temps passÃ© Ã  la capitale.",
+		"description": "IdÃ©alement situÃ© Ã  2 pas de la place de la République, ce studio particuliÃ¨rement fonctionnel est parfait pour dÃ©couvrir Paris. Proche de tous les points d'intÃ©rÃªts grÃ¢ce aux 5 lignes de mÃ©tro qui sont Ã  5 minutes, vous pourrez rentabiliser votre temps passÃ© Ã  la capitale.",
 		"host": {
 			"name": "Sarah Devit",
 			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-8.jpg"
@@ -358,22 +358,22 @@
 		"equipments": [
 			"Rangements",
 			"Lit",
-			"SÃ¨che Cheveux",
+			"Sèche Cheveux",
 			"Wi-fi",
 			"TV",
 			"Bouilloire"
 		],
 		"tags": [
 			"Marais",
-			"RÃ©publique",
+			"République",
 			"Studio",
-			"Proche MÃ©tros",
+			"Proche Métros",
 			"Commerces"
 		]
 	},
 	{
 		"id": "af6d2d48",
-		"title": "Bungalow dans la forÃªt",
+		"title": "Bungalow dans la Forêt",
 		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-12-1.jpg",
 		"pictures": [
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-12-1.jpg",
@@ -382,7 +382,7 @@
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-12-4.jpg",
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-12-5.jpg"
 		],
-		"description": "Quittez Paris pour vous mettre au vert. Ã€ seulement 30 minutes de la Gare du Nord, venez dÃ©couvrir la forÃªt d'Ecouen directement depuis la fenÃªtre de votre bungalow. EntiÃ¨rement Ã©quipÃ©, ce logement saura vous accueillir dans le confort, tout en vous permettant de vous concentrer sur l'essentiel. Le matin, ouvrez les fenÃªtres, et profitez du chant des oiseaux.",
+		"description": "Quittez Paris pour vous mettre au vert. Ã€ seulement 30 minutes de la Gare du Nord, venez dÃ©couvrir la Forêt d'Ecouen directement depuis la fenÃªtre de votre bungalow. EntiÃ¨rement Ã©quipÃ©, ce logement saura vous accueillir dans le confort, tout en vous permettant de vous concentrer sur l'essentiel. Le matin, ouvrez les fenÃªtres, et profitez du chant des oiseaux.",
 		"host": {
 			"name": "Sarah Devit",
 			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-8.jpg"
@@ -391,15 +391,15 @@
 		"location": "Ile de France - Ecouen",
 		"equipments": [
 			"SDB",
-			"Cuisine Ã©quipÃ©e",
-			"Toilettes sÃ¨ches",
+			"Cuisine Équipée",
+			"Toilettes sèches",
 			"Frigo",
 			"Bouilloire"
 		],
 		"tags": [
-			"ForÃªt",
+			"Forêt",
 			"Nature",
-			"MusÃ©e d'Ecouen"
+			"Musée d'Ecouen"
 		]
 	},
 	{
@@ -422,16 +422,16 @@
 		"location": "Ile de France - Arnouville",
 		"equipments": [
 			"SDB",
-			"Cuisine Ã©quipÃ©e",
+			"Cuisine Équipée",
 			"Frigo",
 			"Bouilloire",
 			"WIFI",
-			"TÃ©lÃ©vision",
+			"Télévision",
 			"Cintres",
-			"Ã‰quipements de base"
+			"Équipements de base"
 		],
 		"tags": [
-			"ForÃªt",
+			"Forêt",
 			"Nature",
 			"Grande maison"
 		]
@@ -457,7 +457,7 @@
 		"equipments": [
 			"Bouilloire",
 			"SDB",
-			"Cuisine Ã©quipÃ©e",
+			"Cuisine Équipée",
 			"Frigo",
 			"WIFI",
 			"TV",
@@ -491,8 +491,8 @@
 		"rating": "3",
 		"location": "Ile de France - La DÃ©fense",
 		"equipments": [
-			"Baie vitrÃ©e",
-			"TÃ©lÃ©vision",
+			"Baie vitrée",
+			"Télévision",
 			"Four",
 			"Frigo",
 			"Wi-fi",
@@ -500,7 +500,7 @@
 			"Parking"
 		],
 		"tags": [
-			"La DÃ©fense",
+			"La Défense",
 			"Loft",
 			"Luxe"
 		]
@@ -524,7 +524,7 @@
 		"rating": "4",
 		"location": "Ile de France - Levallois",
 		"equipments": [
-			"TÃ©lÃ©vision",
+			"Télévision",
 			"Four",
 			"Frigo",
 			"Hotte",
@@ -557,7 +557,7 @@
 		],
 		"tags": [
 			"Vue Parc",
-			"MÃ©tros"
+			"Métros"
 		]
 	},
 	{
@@ -577,7 +577,7 @@
 		"rating": "4",
 		"location": "Ile de France - Paris 13e",
 		"equipments": [
-			"Ã‰quipements de base",
+			"Équipements de base",
 			"Four",
 			"Frigo",
 			"Wi-fi",
@@ -605,7 +605,7 @@
 		"location": "Ile de France - Paris 13e",
 		"equipments": [
 			"Wi-fi",
-			"Ã‰quipements de base",
+			"Équipements de base",
 			"Micro-Ondes",
 			"Frigo",
 			"Baignoire"

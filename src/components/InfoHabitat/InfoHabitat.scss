@@ -16,7 +16,7 @@
         border-radius: 10px;
         padding: 0.5rem 1rem;
         font-family: $font-family-primary;
-        font-weight: 700;
+        font-weight: $font-weight-secondary;
         font-size: 18px;
         display: flex;
         justify-content: space-between;
@@ -44,4 +44,23 @@
         transition: transform 0.8s ease-out, opacity 0.8s ease-out;
     }
 }
+}
+
+@media only screen and (max-width:480px)  {
+    .apt-container {
+        flex-direction: column;
+        gap: 0.5rem;
+
+        .apt-info {
+            .apt-legend {
+                font-size: 16px;
+                padding: 0.4rem 0.8rem;
+            }
+
+            .apt-text {
+                padding: 0.8rem;
+                transform: none;
+            }
+        }
+    }
 }
